@@ -2,12 +2,14 @@ package com.tsubulko.entity;
 
 import lombok.*;
 
+import java.io.Serializable;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
 @ToString
-public class Address {
+public class Address implements Serializable {
 
     private Integer contactId;
     private String country;

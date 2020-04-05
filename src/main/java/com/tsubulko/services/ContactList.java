@@ -10,7 +10,7 @@ import java.util.List;
 
 public class ContactList  {
 
-  private   List<Contact> contacts = new LinkedList<>();
+  private   List<Contact> contacts = new LinkedList<Contact>();
 
 
 

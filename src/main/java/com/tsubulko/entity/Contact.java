@@ -1,9 +1,11 @@
 package com.tsubulko.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -14,8 +16,8 @@ import java.util.List;
 @EqualsAndHashCode
 @ToString
 
-
-public class Contact {
+@JsonFormat(shape=JsonFormat.Shape.ARRAY)
+public  class Contact implements Serializable {
     public enum Marital {
         MARRIED,
         WIDOWED,

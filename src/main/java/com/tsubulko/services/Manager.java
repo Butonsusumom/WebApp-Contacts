@@ -8,8 +8,7 @@ import com.tsubulko.exception.NoSuchContactException;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
+
 
 public class Manager {
     private ContactList contactList;
