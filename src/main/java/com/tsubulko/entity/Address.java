@@ -11,10 +11,13 @@ import java.io.Serializable;
 @ToString
 public class Address implements Serializable {
 
-    private Integer contactId;
+    private int contactId;
     private String country;
-    private String region;
-    private String locality;
-    private Integer postcode;
+    private String city;
+    private String street;
+    private Integer house;
+    private Integer zip;
 
+    public Address(int i, String belarus, String minsk_region, String minsk, int i1) {
+    }
 }

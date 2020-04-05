@@ -6,6 +6,7 @@ import lombok.*;
 
 
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -18,6 +19,10 @@ import java.util.List;
 
 @JsonFormat(shape=JsonFormat.Shape.ARRAY)
 public  class Contact implements Serializable {
+
+    public Contact(String name, String surname) {
+    }
+
     public enum Marital {
         MARRIED,
         WIDOWED,
@@ -30,19 +35,19 @@ public  class Contact implements Serializable {
         FEMALE;
     }
 
-    private Integer id;
+    private long id;
     private Address address;
-    private Phone phone;
+   // private Phone phone;
     private String name;
     private String surname;
     private String patronymic;
     private Sex sex;
-    private Date birth;
-    private String nationality;
+    private String birth;
     private Marital maritalStatus;
-    private String site;
     private String email;
-    private String workplace;
-    private Photo avatar;
+    private String curJob;
+    private String photo;
+    private String citizenship;
+
 
 }
