@@ -1,0 +1,1 @@
+[[1,{"contactId":1,"country":"Belarus","city":"Minsk","street":"Perehyodnaya","house":12,"zip":220},"Ksusha","Tsubulko","Dmitievna","FEMALE","2000-14-10","SINGLE","tsubulko.ksenia@gmail.com","BSUIR","C:/1.jpg","belarussian"]]
